@@ -1,4 +1,4 @@
-Dokumentacja aplikacji "Szafa"
+# Dokumentacja aplikacji "Szafa"
 Opis
 Aplikacja "Szafa" jest prostą stroną internetową umożliwiającą przeglądanie różnych elementów garderoby, takich jak czapki, koszulki, spodnie i buty. Użytkownicy mogą wybrać kategorię i przeglądać różne produkty, a także wybierać różne zdjęcia dla każdego produktu.
 
@@ -28,9 +28,23 @@ Przewiń stronę, aby zobaczyć różne dostępne produkty w wybranej kategorii.
 Kliknij przycisk "Wybierz inne zdjęcie", aby zmienić aktualnie wyświetlane zdjęcie produktu.
 Powtarzaj kroki 2-4 dla innych kategorii produktów.
 Autorzy
-Imię Nazwisko (email): Opis wkładu do projektu.
-Imię Nazwisko (email): Opis wkładu do projektu.
 Wersje
-1.0 (DD/MM/RRRR): Pierwsza wersja aplikacji "Szafa".
-Kontakt
-Jeśli masz jakiekolwiek pytania lub uwagi odnośnie aplikacji, skontaktuj się z nami pod adresem 
+
+#Wersyfikacja
+    • 0.1
+        ◦ Dodano strukturę głównej strony HTML.
+        ◦ Dodano arkusz stylów CSS dla ogólnego wyglądu strony.
+        ◦ Dodano przykładowe zdjęcia produktów.
+    • 0.2 
+        ◦ Dodano interaktywny boczny pasek nawigacyjny (navbar).
+        ◦ Dodano funkcję wyboru różnych kategorii produktów.
+    • 0.3 
+        ◦ Dodano sekcję "Szafa" z podkategorią "Czapka".
+        ◦ Dodano możliwość wyboru różnych zdjęć dla kategorii "Czapka".
+    • 0.4 
+        ◦ Dodano kolejne kategorie produktów: "Koszulka", "Spodnie", "Buty".
+        ◦ Dodano możliwość wyboru różnych zdjęć dla wszystkich kategorii produktów.
+    • 1.0 
+        ◦ Pierwsza stabilna wersja aplikacji "Szafa".
+        ◦ Poprawiono responsywność strony dla lepszego dostosowania do różnych urządzeń.
+
