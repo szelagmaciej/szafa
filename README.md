@@ -30,7 +30,7 @@ Powtarzaj kroki 2-4 dla innych kategorii produktów.
 Autorzy
 Wersje
 
-#Wersyfikacja
+# Wersyfikacja
     • 0.1
         ◦ Dodano strukturę głównej strony HTML.
         ◦ Dodano arkusz stylów CSS dla ogólnego wyglądu strony.
