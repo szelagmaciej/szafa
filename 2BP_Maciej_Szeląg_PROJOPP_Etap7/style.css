@@ -1,0 +1,136 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8B93FF;
+    box-sizing: border-box;
+    color: #FFF7FC;
+    transition: 0.3s;
+    animation-duration: 0.5s;
+    animation-name: animate-fade;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+}
+
+.container {
+    background-color: #5755FE;
+    max-width: 800px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.navbar {
+    width: 120px; /* Szerokość bocznego paska nawigacyjnego */
+    background-color: #5755FE;
+}
+
+.sidebar {
+    width: 120px; /* Szerokość bocznego paska nawigacyjnego */
+    background-color: #5755FE;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sidebar-inner {
+    width: 100%;
+    height: 20%;
+}
+
+.sidebar-item {
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    transition: 1s;
+    padding: 10px;
+}
+
+.sidebar-item:hover {
+    transition: 0.3s;
+    background-color: #FF71CD;
+    border-radius: 5%;
+}
+
+.fa {
+    margin-right: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    padding: 20px;
+}
+
+a {
+    color: #FFF7FC;
+}
+
+a:visited {
+    color: #FFF7FC;
+}
+
+.categories {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.category {
+    flex: 100%;
+    padding: 10px;
+    background-color: #FF71CD;
+    border-radius: 5px;
+}
+
+.category h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.products {
+    overflow-x: auto; /* Pozwala na przewijanie poziome listy produktów */
+    display: flex; /* Ustawienie produktów w jednej linii */
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Odstęp między produktami */
+}
+
+.products img {
+    max-width: 100px; 
+    max-height: 100px;
+    height: auto;
+    scale: 1;
+    object-fit: cover;  
+}
+
+button {
+    background-color: #5755FE;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #8B93FF;
+}

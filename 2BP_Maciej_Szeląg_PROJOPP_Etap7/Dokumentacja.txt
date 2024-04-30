@@ -1,0 +1,36 @@
+Dokumentacja aplikacji "Szafa"
+Opis
+Aplikacja "Szafa" jest prostą stroną internetową umożliwiającą przeglądanie różnych elementów garderoby, takich jak czapki, koszulki, spodnie i buty. Użytkownicy mogą wybrać kategorię i przeglądać różne produkty, a także wybierać różne zdjęcia dla każdego produktu.
+
+Struktura plików
+index.html: Główny plik HTML aplikacji, zawiera strukturę strony i interfejs użytkownika.
+style.css: Arkusz stylów CSS, odpowiedzialny za wygląd aplikacji.
+czapka.png, koszulka.png, spodnie.png, buty.png: Przykładowe zdjęcia produktów w formacie PNG.
+script.js: Skrypt JavaScript, obsługuje interakcje użytkownika, takie jak zmiana zdjęć produktów.
+Struktura HTML
+Navbar: Boczny pasek nawigacyjny zawierający trzy opcje: "Home", "Szafa" i "Style".
+Content: Główna zawartość aplikacji, zawierająca kategorie produktów i ich zdjęcia.
+Kategorie Produktów
+Czapka: Zawiera różne zdjęcia czapek.
+Koszulka: Zawiera różne zdjęcia koszulek.
+Spodnie: Zawiera różne zdjęcia spodni.
+Buty: Zawiera różne zdjęcia butów.
+Struktura CSS
+Globalne style: Definiuje ogólne style dla całej strony, takie jak czcionka, kolory tła i tekstu.
+Navbar: Określa styl bocznego paska nawigacyjnego.
+Przycisk: Określa styl przycisków wyboru innych zdjęć.
+Skrypt JavaScript
+zmienZdjecie(kategoria): Funkcja obsługująca zmianę zdjęcia dla danej kategorii produktu po kliknięciu przycisku "Wybierz inne zdjęcie".
+Instrukcje użytkowania
+Otwórz stronę główną aplikacji.
+Wybierz kategorię produktu, którą chcesz przeglądać (np. "Czapka").
+Przewiń stronę, aby zobaczyć różne dostępne produkty w wybranej kategorii.
+Kliknij przycisk "Wybierz inne zdjęcie", aby zmienić aktualnie wyświetlane zdjęcie produktu.
+Powtarzaj kroki 2-4 dla innych kategorii produktów.
+Autorzy
+Imię Nazwisko (email): Opis wkładu do projektu.
+Imię Nazwisko (email): Opis wkładu do projektu.
+Wersje
+1.0 (DD/MM/RRRR): Pierwsza wersja aplikacji "Szafa".
+Kontakt
+Jeśli masz jakiekolwiek pytania lub uwagi odnośnie aplikacji, skontaktuj się z nami pod adresem 
